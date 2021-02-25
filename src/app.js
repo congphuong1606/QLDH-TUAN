@@ -201,7 +201,7 @@ function editdonhang(msg) {
                                                                                         }
 
                                                                                     );
-                                                                                    const idgroup = -587269565;
+                                                                                    const idgroup = -485891859;
                                                                                     bot.sendMessage(
                                                                                         idgroup,
                                                                                         `Cập nhật thành công!\n` + typeee + ` USDT: @` + item.username + `\nMã đơn:` + item.code + `\nSố lượng:` + item.soluong +
@@ -392,7 +392,7 @@ function nhapDonHang(sheet, msg) {
                                                                                         parse_mode: 'HTML',
                                                                                     }
                                                                                 );
-                                                                                const idgroup = -587269565;
+                                                                                const idgroup = -485891859;
                                                                                 bot.sendMessage(
                                                                                     idgroup,
                                                                                     `Lên đơn thành công!\n` + typeee + ` USDT: @` + item.username + `\nMã đơn:` + response.data.result + `\nSố lượng:` + item.soluong +
